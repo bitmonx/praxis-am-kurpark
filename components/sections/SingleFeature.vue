@@ -3,7 +3,7 @@
       <div class="group feature shadow-md hover:shadow-2xl"
            :class="{'border-ci-purple shadow-ci-purple': feature.group === 1, 'border-ci-orange shadow-ci-orange': feature.group === 2}"
       >
-          <NuxtImg :src="imgPath" class="opacity-30 group-hover:opacity-100" id="feature-image"></NuxtImg>
+          <NuxtImg preload :src="imgPath" class="opacity-30 group-hover:opacity-100" id="feature-image"></NuxtImg>
           <div class="absolute uppercase text-xl text-center font-bold m-5 pointer-events-none group-hover:opacity-0 transition-all duration-500 ">
               {{feature.title}}
           </div>
