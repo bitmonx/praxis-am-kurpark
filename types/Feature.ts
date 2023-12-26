@@ -3,4 +3,5 @@ export type Feature = {
     group: number,
     title: string,
     image: string,
+    description: string,
 }
