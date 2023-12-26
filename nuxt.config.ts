@@ -2,4 +2,5 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', "@nuxt/image"],
+  css: ['@fortawesome/fontawesome-svg-core/styles.css'],
 })
