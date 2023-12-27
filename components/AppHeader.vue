@@ -1,6 +1,6 @@
 <template>
     <div class="flex items-center justify-center mt-8 flex-col lg:flex-row">
-          <NuxtImg src="/img/logo.png" class="w-100 mr-20"></NuxtImg>
+          <NuxtImg src="/img/logo.png" class="md:max-w-lg max-w-sm lg:mr-20"></NuxtImg>
         <div class="text-5xl text-ci-purple text-center lg:text-left">
             <h1>HP Dominic von Grumbkow</h1>
             <h2>Praxis am Kurpark</h2>
