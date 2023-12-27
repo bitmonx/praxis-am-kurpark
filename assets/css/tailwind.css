@@ -15,7 +15,7 @@ section {
 }
 
 .feature {
-    @apply relative hover-zoom max-w-lg rounded-xl overflow-hidden bg-gray-300 flex flex-col justify-center items-center bg-white border;
+    @apply relative hover-zoom max-w-lg rounded-xl overflow-hidden bg-gray-300 flex flex-col justify-center items-center bg-white;
 }
 
 .modal-content {

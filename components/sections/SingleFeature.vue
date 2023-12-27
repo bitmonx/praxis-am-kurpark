@@ -1,9 +1,7 @@
 <template>
-  <div class="flex justify-center">
-      <div class="group feature shadow-md hover:shadow-2xl"
-           :class="{'border-ci-purple shadow-ci-purple': feature.group === 1, 'border-ci-orange shadow-ci-orange': feature.group === 2}"
-      >
-          <NuxtImg preload :src="imgPath" class="opacity-30 group-hover:opacity-100" id="feature-image"></NuxtImg>
+  <div class="flex justify-center items-center w-72">
+      <div class="group feature shadow-lg hover:shadow-2xl">
+          <NuxtImg preload :src="imgPath" class="opacity-40 group-hover:opacity-100" id="feature-image"></NuxtImg>
           <div class="absolute uppercase text-xl text-center font-bold m-5 pointer-events-none group-hover:opacity-0 transition-all duration-500 ">
               {{feature.title}}
           </div>

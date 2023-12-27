@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-row justify-between p-4">
       <p>
-          {{ year }} - Praxis am Kurpark
+        &copy;{{ year }} - HP Dominic v. Grumbkow
       </p>
       <nav>
           <ul class="flex flex-row gap-6">
@@ -17,8 +17,7 @@
 </template>
 
 <script setup lang="ts">
-  const date = new Date()
-  const year = ref(date.getFullYear())
+  const year = ref(new Date().getFullYear())
 </script>
 
 <style scoped>

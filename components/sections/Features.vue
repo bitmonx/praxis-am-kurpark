@@ -1,6 +1,6 @@
 <template>
-    <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-10" id="features">
-        <SectionsSingleFeature @click="openModal(feature)" v-for="feature in features" :key="feature.id" :feature="feature" />
+    <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-y-16 justify-items-center" id="features">
+      <SectionsSingleFeature @click="openModal(feature)" v-for="feature in features" :key="feature.id" :feature="feature" />
     </div>
   <FeatureModal
       :modal-active="modalActive"
