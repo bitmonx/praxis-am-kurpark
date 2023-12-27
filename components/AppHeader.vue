@@ -3,7 +3,7 @@
           <NuxtImg src="/img/logo.png" class="md:max-w-lg max-w-sm lg:mr-20"></NuxtImg>
         <div class="text-5xl text-ci-purple text-center lg:text-left">
             <h1>HP Dominic von Grumbkow</h1>
-            <h2>Praxis am Kurpark</h2>
+            <h2 class="text-4xl">Praxis am Kurpark</h2>
         </div>
     </div>
     <Navigation />
